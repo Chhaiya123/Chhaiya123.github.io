@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-teal{
+    background-color: teal;
+}
+.bg-orange{
+    background-color: orange;
+}
+.bg-blue{
+    background-color: #0303b1;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: teal;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    width: 90%;
+    height: 80px;
+    background-color: #00238b;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    /* background-color: red; */
+    padding: 20px;
+}
+.card{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: brown;
+    position: relative;
+}
+.card .card-item0{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    transition: 0.7s;
+}
+.card .card-item1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    transition: 0.7s;
+}
+.card .card-item2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    transition: 0.7s;
+}
+.card .card-item3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    transition: 0.7s;
+}
+
+.card:hover .card-item0{
+    top: 0px;
+    left: 0px;
+}
+.card:hover .card-item1{
+    top: 0px;
+    right: 0px;
+}
+.card:hover .card-item2{
+    bottom: 0px;
+    left: 0px;
+}
+.card:hover .card-item3{
+    bottom: 0px;
+    right: 0px;
+}
+/* ============== */
+.main-box{
+    width: 500px;
+    height: 500px;
+    background-color: #ffc0cb;
+    margin: 100px auto;
+    position: relative;
+}
+.main-box .box1{
+    width: 200px;
+    height: 200px;
+    background-color: #00008a;
+    position: absolute;
+    top: 0px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.main-box .box2{
+    width: 200px;
+    height: 200px;
+    background-color: #001861;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.main-box .box3{
+    width: 200px;
+    height: 200px;
+    background-color: #bfcfff;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.main-box .box4{
+    width: 200px;
+    height: 200px;
+    background-color: #008b8b;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.main-box .box5{
+    width: 200px;
+    height: 200px;
+    background-color: #006161;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.main-box .box6{
+    width: 200px;
+    height: 200px;
+    background-color: #00238b;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+
+/* ====== */
+.product{
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    background-color: #006161;
+    position: relative;
+    overflow: hidden;
+}
+.product h1{
+    font-size: 60px;
+    color: white;
+    margin: 100px 30px;
+    position: absolute;
+    position: st;
+    left: 150px;
+    top: 100px;
+}
+.product .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: #50be06f5;
+    transition: 0.5s;
+}
+.product:hover .bg{
+    width: 100%;
+    height: 0%;
+}
+/* ====== */
+.product2{
+    width: 500px;
+    height: 500px;
+    margin: 30px auto;
+    background-color: #006161;
+    position: relative;
+    overflow: hidden;
+}
+.product2 h1{
+    font-size: 60px;
+    color: white;
+    margin: 100px 30px;
+    position: absolute;
+    position: st;
+    left: 150px;
+    top: 100px;
+}
+.product2 .bg1{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -100%;
+    background-color: #be9606f5;
+    transition: 0.5s; 
+    padding: 20px;
+}
+.product2:hover .bg1{
+    width: 100%;
+    bottom: 0px;
+}
+.product2 .bg2{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: -100%;
+    background-color: #f3c2b6f5;
+    transition: 0.5s;
+}
+.product2 .bg2 svg{
+    width: 200px;
+}
+.product2:hover .bg2{
+    width: 100%;
+    top: 0px;
+}
+/* ----- */
+h2{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.top{
+    width: 100px;
+    height: 100px;
+    background-color: #74e100;
+    font-size: 20px;
+    border-radius: 100px;
+    border: none;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+    color: white;
+}
+.top:hover{
+    background-color: #00008a;
+}
